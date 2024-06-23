@@ -1,0 +1,49 @@
+.header-container {
+  width: 100%;
+  background-color: #080a7471;
+  backdrop-filter: blur(15px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+.shadow-applied {
+  box-shadow: 5px 1px 5px rgb(255, 2, 2);
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.image-php {
+  width: 110px;
+  margin-right: 22rem;
+}
+.list-header {
+  width: 50%;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  list-style: none;
+}
+
+.item a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+}
+.item a:hover {
+  color: rgb(145, 145, 252);
+  border-bottom: 3px solid #766bebe0;
+}
+img {
+  margin-top: 1rem;
+  width: 910px;
+  border-radius: 12px;
+}

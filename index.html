@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/section.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header-container">
+      <nav class="navbar">
+        <div class="imgTeste">
+          <img src="./img/php.gif" class="image-php" alt="image-php" />
+        </div>
+        <ul class="list-header">
+          <li class="item">
+            <a href="#home"> Home </a>
+          </li>
+          <li class="item active">
+            <a href="#vantagens">Vantagens</a>
+          </li>
+          <li class="item">
+            <a href="#curiosidade"> Curiosidades </a>
+          </li>
+          <li class="item">
+            <a href="#exemple">Exemplos</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="section-container Jh">
+        <div class="content">
+          <h1>O que é PHP?</h1>
+          <p class="text">
+            O PHP (um acrônimo recursivo para PHP: Hypertext Preprocessor) é uma
+            linguagem de script open source de uso geral, muito utilizada, e
+            especialmente adequada para o desenvolvimento web e que pode ser
+            embutida dentro do HTML.
+          </p>
+          <p class="text">Ótimo, mas o que isso significa? Por exemplo:</p>
+          <h2>Exemplo #1 Um exemplo introdutório</h2>
+          <div id="img">
+            <img src="img/PHP.jpeg" alt="" />
+          </div>
+          <p class="text">
+            Em vez de muitos comandos para mostrar HTML, as páginas PHP contém
+            HTML em código mesclado que faz "alguma coisa" (neste caso, mostra
+            "Olá, eu sou um script PHP!"). O código PHP é delimitado pelas
+            instruções de processamento (tags) de início e fim &lt;?php e ?&gt;
+            que permitem que você entre e saia do "modo PHP".
+          </p>
+          <p class="text">
+            O que distingue o PHP de algo como o JavaScript no lado do cliente é
+            que o código é executado no servidor, gerando o HTML que é então
+            enviado para o navegador. O navegador recebe os resultados da
+            execução desse script, mas não sabe qual era o código fonte. Você
+            pode inclusive configurar seu servidor web para processar todos os
+            seus arquivos HTML com o PHP, e então não há como os usuários
+            dizerem o que você tem na sua manga.
+          </p>
+          <p class="text">
+            A melhor coisa em usar o PHP é que ele é extremamente simples para
+            um iniciante, mas oferece muitos recursos avançados para um
+            programador profissional. Não tenha medo de ler a longa lista de
+            recursos do PHP. Pode entrar com tudo, o mais rápido que puder, e
+            começar a escrever scripts simples em poucas horas.
+          </p>
+        </div>
+      </section>
+
+      <section class="section-container mt">
+        <div class="content">
+          <h1 id="vantagens">VANTAGENS</h1>
+
+          <p class="text">
+            As vantagens de utilizar o PHP são evidentes em sua capacidade de
+            <span>proporcionar um desenvolvimento web ágil e eficiente.</span>
+            O PHP torna-se acessível mesmo para iniciantes, facilitando a
+            criação de aplicações dinâmicas.
+          </p>
+          <img
+            src="./img/o_que_e_php_unsplash-e1612906186814.jpg"
+            class="images"
+            alt=""
+          />
+
+          <div class="container-topics">
+            <div class="explication">
+              <h2>Facilidade de aprendizagem</h2>
+              <p class="text">
+                PHP é conhecido por sua sintaxe simples e intuitiva, facilitando
+                a curva de aprendizado para iniciantes. Desenvolvedores podem
+                rapidamente começar a criar aplicações funcionais com apenas
+                conhecimentos básicos de programação.
+              </p>
+            </div>
+
+            <div class="explication">
+              <h2>Ampla compatibilidade com bancos de dados:</h2>
+              <p class="text">
+                A linguagem oferece suporte a uma variedade de sistemas de
+                gerenciamento de banco de dados, como
+                <i> MySQL, PostgreSQL e SQLite.</i> Essa flexibilidade torna o
+                PHP uma escolha versátil para diferentes tipos de projetos que
+                exigem integração com bancos de dados.
+              </p>
+            </div>
+
+            <div class="explication">
+              <h2>Flexibilidade</h2>
+              <p class="text">
+                PHP é extremamente flexível e pode ser utilizado para
+                desenvolver desde pequenos projetos até grandes aplicações
+                corporativas.
+              </p>
+            </div>
+            <div class="explication">
+              <h2>Desenvolvimento ágil de sites dinâmicos</h2>
+              <p class="text">
+                Com códigos PHP integrados diretamente no <i> HTML </i>, é
+                possível criar páginas web dinâmicas de maneira eficiente. A
+                capacidade de incorporar lógica de programação diretamente no
+                código HTML facilita o desenvolvimento de sites interativos e
+                personalizados.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-container alec" id="exemple">
+        <div class="content">
+          <h1>Como funciona?</h1>
+          <p class="text">
+            Em um site ou aplicativo web, o código PHP é delimitado pelas tags
+            <code> &lt;?php</code> e <code>?&gt; </code>. Tudo entre essas tags
+            é executado pelo servidor, como consultas a banco de dados para
+            exibir informações na página. Quando o navegador do usuário solicita
+            a página, o servidor processa o PHP e gera o HTML para retornar ao
+            navegador. Abaixo está um exemplo de uma página simples que exibe a
+            mensagem: "Olá, eu sou um script PHP!":
+          </p>
+
+          <div class="container-topics">
+            <div class="explication">
+              <h2>Exemplos</h2>
+              <p class="text">
+                Abaixo, um exemplo de uma página simples que exibe a mensagem:
+                “Olá, eu sou um script PHP!”:
+              </p>
+              <div class="example-code">
+                <p class="text-codigo">
+                  <code> &lt;!DOCTYPE html> </code>
+                  <br />
+                  <code class="right1"> &lt; html> </code>
+                  <br />
+                  <code class="right2"> &lt; head> </code>
+                  <br />
+                  <code class="right3"
+                    >&nbsp;&nbsp;&nbsp; &lt;title&gt;Exemplo&lt;/title&gt;</code
+                  >
+                  <br />
+                  <code class="right2"> &lt; /head> </code>
+                  <br />
+                  <code class="right4">&nbsp;&nbsp; &lt;body&gt;</code>
+                </p>
+                <p class="text-codigo">
+                  <code class="right5">&nbsp; &lt;?php</code>
+                  <br />
+                  <code class="right5"
+                    >&nbsp;&nbsp; echo
+                    <span contenteditable id="codeUser">
+                      "Olá, eu sou um script PHP!"</span
+                    >
+                    ;</code
+                  >
+                  <br />
+                  <code class="right5">&nbsp; ?&gt;</code>
+                </p>
+                <p class="text-codigo">
+                  <code class="right4">&nbsp; &lt;/body&gt;</code>
+                  <br />
+                  <code>&lt;/html&gt;</code>
+                </p>
+              </div>
+              <p class="text">
+                Teste você mesmo clicando no trecho de código php e escrevendo o
+                que deseja e depois clique em Testa código!
+              </p>
+
+              <button class="testing">Testar código</button>
+              <img
+                src="./img/o_que_e_php_computador-700x467.jpg"
+                class="images"
+                alt=""
+              />
+              <p class="text">
+                Além de ser uma linguagem de programação de código aberto, é
+                possível instalá-la na maioria dos sistemas operacionais
+                gratuitamente, o que também torna o seu custo de manutenção
+                muito menor.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-container sara">
+        <div class="content">
+          <h1>Importância/Conclusão</h1>
+          <div class="container-topics">
+            <div class="explication">
+              <h2>Sua importância se deve a diversos fatores</h2>
+              <ul class="items-list">
+                <li class="items">Facilidade de Aprendizado e Uso</li>
+                <li class="items">Integração com HTML</li>
+                <li class="items">Ampla Utilização e Suporte</li>
+                <li class="items">Compatibilidade com Bancos de Dados</li>
+                <li class="items">Desempenho e Eficiência</li>
+                <li class="items">Hospedagem acessível</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

@@ -6,8 +6,9 @@
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/section.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
     <script src="https://unpkg.com/scrollreveal"></script>
-    <title>Document</title>
+    <title>Site php</title>
   </head>
   <body>
     <header class="header-container">
@@ -23,7 +24,7 @@
             <a href="#vantagens">Vantagens</a>
           </li>
           <li class="item">
-            <a href="#curiosidade"> Curiosidades </a>
+            <a href="#desvantagens"> Desvantagens </a>
           </li>
           <li class="item">
             <a href="#exemple">Exemplos</a>
@@ -32,7 +33,7 @@
       </nav>
     </header>
     <main>
-      <section class="section-container Jh">
+      <section class="section-container" id="#home">
         <div class="content">
           <h1>O que é PHP?</h1>
           <p class="text">
@@ -44,7 +45,7 @@
           <p class="text">Ótimo, mas o que isso significa? Por exemplo:</p>
           <h2>Exemplo #1 Um exemplo introdutório</h2>
           <div id="img">
-            <img src="img/PHP.jpeg" alt="" />
+            <img src="img/PHP.jpeg" class="imagess" alt="" />
           </div>
           <p class="text">
             Em vez de muitos comandos para mostrar HTML, as páginas PHP contém
@@ -84,8 +85,7 @@
           </p>
           <img
             src="./img/o_que_e_php_unsplash-e1612906186814.jpg"
-            class="images"
-            alt=""
+            class="imagess"
           />
 
           <div class="container-topics">
@@ -100,13 +100,13 @@
             </div>
 
             <div class="explication">
-              <h2>Ampla compatibilidade com bancos de dados:</h2>
+              <h2>Ampla compatibilidade com bancos de dados</h2>
               <p class="text">
                 A linguagem oferece suporte a uma variedade de sistemas de
-                gerenciamento de banco de dados, como
-                <i> MySQL, PostgreSQL e SQLite.</i> Essa flexibilidade torna o
-                PHP uma escolha versátil para diferentes tipos de projetos que
-                exigem integração com bancos de dados.
+                gerenciamento de banco de dados, como MySQL, PostgreSQL e
+                SQLite. Essa flexibilidade torna o PHP uma escolha versátil para
+                diferentes tipos de projetos que exigem integração com bancos de
+                dados.
               </p>
             </div>
 
@@ -132,6 +132,58 @@
         </div>
       </section>
 
+      <section class="section-container">
+        <div class="content">
+          <h1 id="desvantagens">Desvantagens sobre PHP</h1>
+          <p class="text">
+            Apesar de ser uma linguagem popular e poderosa para desenvolvimento
+            web, o PHP também apresenta algumas desvantagens que devem ser
+            consideradas antes de sua escolha
+          </p>
+
+          <img src="./img/image3.jpg" alt="" />
+          <div class="container-topics">
+            <div class="explication">
+              <h2>Tipagem fraca</h2>
+              <p class="text">
+                O PHP possui tipagem fraca, o que significa que as variáveis não
+                precisam ser declaradas com um tipo específico. Isso pode levar
+                a erros de tempo de execução e dificultar a leitura e manutenção
+                do código, especialmente em projetos maiores e mais complexos.
+              </p>
+            </div>
+
+            <div class="explication">
+              <h2>Desempenho</h2>
+              <p class="text">
+                O PHP pode ter um desempenho menos eficiente em comparação com
+                outras linguagens como Java ou Python, principalmente em
+                aplicações que exigem alto processamento. Isso se deve à sua
+                arquitetura e implementação, que podem apresentar gargalos em
+                determinadas situações.
+              </p>
+            </div>
+            <div class="explication">
+              <h2>Segurança</h2>
+              <p class="text">
+                O PHP, como qualquer linguagem, pode ser vulnerável a falhas de
+                segurança se não for usado com cuidado. Erros comuns de
+                codificação e práticas inseguras podem levar a ataques de
+                injeção de código, cross-site scripting e outras ameaças.
+              </p>
+            </div>
+            <div class="explication">
+              <h2>Documentação</h2>
+              <p class="text">
+                A documentação oficial do PHP pode ser considerada menos
+                completa e atualizada em comparação com a documentação de outras
+                linguagens populares.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="section-container alec" id="exemple">
         <div class="content">
           <h1>Como funciona?</h1>
@@ -142,7 +194,7 @@
             exibir informações na página. Quando o navegador do usuário solicita
             a página, o servidor processa o PHP e gera o HTML para retornar ao
             navegador. Abaixo está um exemplo de uma página simples que exibe a
-            mensagem: "Olá, eu sou um script PHP!":
+            mensagem: "Olá, eu sou um script PHP!"
           </p>
 
           <div class="container-topics">
@@ -150,7 +202,7 @@
               <h2>Exemplos</h2>
               <p class="text">
                 Abaixo, um exemplo de uma página simples que exibe a mensagem:
-                “Olá, eu sou um script PHP!”:
+                “Olá, eu sou um script PHP!”
               </p>
               <div class="example-code">
                 <p class="text-codigo">
@@ -193,11 +245,7 @@
               </p>
 
               <button class="testing">Testar código</button>
-              <img
-                src="./img/o_que_e_php_computador-700x467.jpg"
-                class="images"
-                alt=""
-              />
+              <img src="./img/php-examples-1-.jpeg" class="imagess" />
               <p class="text">
                 Além de ser uma linguagem de programação de código aberto, é
                 possível instalá-la na maioria dos sistemas operacionais
@@ -210,23 +258,95 @@
       </section>
       <section class="section-container sara">
         <div class="content">
-          <h1>Importância/Conclusão</h1>
+          <h1>Sua importância se deve a diversos fatores</h1>
           <div class="container-topics">
             <div class="explication">
-              <h2>Sua importância se deve a diversos fatores</h2>
-              <ul class="items-list">
-                <li class="items">Facilidade de Aprendizado e Uso</li>
-                <li class="items">Integração com HTML</li>
-                <li class="items">Ampla Utilização e Suporte</li>
-                <li class="items">Compatibilidade com Bancos de Dados</li>
-                <li class="items">Desempenho e Eficiência</li>
-                <li class="items">Hospedagem acessível</li>
-              </ul>
+              <h2>Facilidade de Aprendizado e Uso</h2>
+              <p class="text">
+                Sua sintaxe clara e objetiva permite que iniciantes e
+                desenvolvedores experientes trabalhem com eficiência e rapidez
+              </p>
+            </div>
+            <div class="explication">
+              <h2>Integração com HTML</h2>
+              <p class="text">
+                Facilita a criação de páginas web dinâmicas e interativas,
+                tornando-se uma ferramenta essencial para o desenvolvimento
+                front-end.
+              </p>
+            </div>
+            <div class="explication">
+              <h2>Ampla Utilização e Suporte</h2>
+              <p class="text">
+                Facilita a criação de páginas web dinâmicas e interativas,
+                tornando-se uma ferramenta essencial para o desenvolvimento
+                front-end.
+              </p>
+            </div>
+            <div class="explication">
+              <h2>Compatibipdade com Bancos de Dados</h2>
+              <p class="text">
+                Facilita a criação de páginas web dinâmicas e interativas,
+                tornando-se uma ferramenta essencial para o desenvolvimento
+                front-end.
+              </p>
+            </div>
+            <div class="explication">
+              <h2>Compatibipdade com Bancos de Dados</h2>
+              <p class="text">
+                Oferece suporte robusto para integração com diversos sistemas de
+                gerenciamento de bancos de dados, permitindo a criação de
+                aplicações complexas e escaláveis.
+              </p>
+            </div>
+            <div class="explication">
+              <h2>Desempenho e Eficiência</h2>
+              <p class="text">
+                É otimizado para oferecer um desempenho excelente, garantindo
+                que as aplicações rodem de forma rápida e eficiente.
+              </p>
+            </div>
+            <div class="explication">
+              <h2>Hospedagem acessível</h2>
+              <p class="text">
+                A ampla disponibilidade de opções de hospedagem a custos
+                acessíveis facilita a implementação e manutenção de projetos de
+                todos os tamanhos.
+              </p>
             </div>
           </div>
         </div>
       </section>
     </main>
+    <footer>
+      <h1>Feito pelos alunos</h1>
+      <ul>
+        <li>
+          <span>Alecsandro</span>
+          <img src="./img/alec.jpeg" alt="" />
+        </li>
+        <li>
+          <span>Ana Clara</span>
+          <img src="./img/ana.jpeg" alt="" />
+        </li>
+        <li>
+          <span>Matheus</span>
+          <img src="./img/matheus.jpeg" alt="" />
+        </li>
+        <li>
+          <span>Murilo</span>
+          <img src="./img/murilo.jpeg" alt="" />
+        </li>
+        <li>
+          <span>Jhonatan</span>
+          <img src="./img/jhonantan.jpeg" alt="" />
+        </li>
+        <li>
+          <span>Sarah</span>
+          <img src="./img/sarah.jpeg" alt="" />
+        </li>
+      </ul>
+    </footer>
 
     <script src="./index.js"></script>
   </body>
